@@ -44,7 +44,7 @@ double getBenchmarkRate()
 int getYearsToMaturity() 
 {
 	int ytm{};
-	std::string prompt{ "Enter the amount of years until maturity: " };
+	std::string prompt{ "Enter the number of years until maturity: " };
 
 	VerifyInt(ytm, prompt);
 

@@ -59,7 +59,7 @@ int main()
 				// Asking for the market price of the bond then outputs the yield to maturity
 
 				double marketPrice{ getMarketPrice() };
-				std::cout << "\n" << "Yield to Maturity " << calculateYTM(marketPrice, parValue, couponRate, yearsToMaturity, paymentFrequency) << "%\n";
+				std::cout << "\n" << "Yield to Maturity: " << calculateYTM(marketPrice, parValue, couponRate, yearsToMaturity, paymentFrequency) << "%\n";
 				break;
 				}
 		}
